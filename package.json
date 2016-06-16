@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "start": "node --harmony --max-old-space-size=100 ./bin/index.js"
+  },
+  "dependencies": {
+    "koa"           :  "^2.0.0-alpha.3",
+    "koa-router"   :  "^7.0.1",
+    "redis"         :  "^2.4.2",
+    "mysql"         :  "^2.10.2",
+    "node-uuid"   :    "^1.4.7",
+    "qiniu"       :    "^6.1.9",
+    "cheerio"     :    "latest",
+    "iconv-lite"  :    "latest",
+    "request"     :     "latest",
+    "canvas"      :    "latest"
+  }
+}
